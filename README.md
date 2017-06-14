@@ -1,11 +1,11 @@
 # change_identity
 A script to modify hostname and mac address related to an interface.
 
-##Prerequisite
+## Prerequisite
 "ifconfig" and "hostname" are nedeed.
 Obtain the superuser permissions using "su" command before.
 
-##Usage
+## Usage
 - To change the hostname you can use: ```./change_identity -n hostname eth0``` 
 - To change the mac you can use: ```./change_identity -m mac eth0```
 - To change mac and hostname you can use: ```./change_identity -n hostname -m mac eth0```
